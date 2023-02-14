@@ -1,1 +1,1 @@
-find . -type d! -path | wc -l
+find . -type d -not -name  "-" path | wc -l
